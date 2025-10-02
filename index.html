@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <title>CoreFit | Your journey, Your pace, Your fitness.</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="CoreFit logo"
+          class="nav__logo"
+          id="logo"
+          designer="Daniel"
+          data-version-number="3.0"
+        />
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Core Benefits</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Workouts</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Join now</a
+            >
+          </li>
+        </ul>
+
+        <!-- Hamburger & Close icons -->
+        <img src="img/menu_Icon.PNG" alt="Menu" class="icon menu-icon" />
+        <img src="img/close_Icon.PNG" alt="Close" class="icon close-icon" />
+      </nav>
+      <!-- Overlay for mobile nav -->
+      <div class="overlay__nav"></div>
+
+
+        <div class="header__title">
+          <div class="hero__upperhalf">
+            <h1 class="hero_text">
+              Get stronger
+              <!-- Teal highlight effect -->
+              <span class="highlight">everyday</span>
+              <br />
+              <div class="simpletext">the <span class="highlight">simple</span> way</div>
+            </h1>
+            <h4 class="hero__text">A simpler way to stay fit, healthy and motivated.</h4>
+            <button class="btn--text btn--scroll-to">
+              Start your journey &DownArrow;
+            </button>
+          </div>
+
+           <div class="header__imgcontainer">
+             <img src="img/hero.png" class="header__img" alt="gym sessions" />
+            </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Core Benefits</h2>
+        
+        <h3 class="section__header">
+          Simple tools, powerful results, built for every fitness journey.
+          <img
+          src="img/running_Icon.PNG"
+          alt="Running Icon"
+          width="40"
+          height="40"
+          class="running_Icon"
+          />
+        </h3>
+      </div>
+    </div>
+      
+      <div class="features">
+        <img
+          src="img/track-workout-lazy.JPG"
+          data-src="img/track-workout.jpg"
+          alt="workout"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <img
+              src="img/watch_Icon.PNG"
+              alt="Watch Icon"
+              width="40"
+              height="40"
+               class="featuresImg__icon"
+            />
+          </div>
+          <h5 class="features__header">Track your workouts</h5>
+          <p class="features__text">
+            Log every exercise and follow your progress with clear insights and
+            visual charts. Stay consistent and see how your strength and
+            endurance improve week by week.
+          </p>
+        </div>
+
+        <div class="featuresHeader__container">
+          <div class="features__feature">
+            <div class="features__icon">
+              <img
+                src="img/dumbbell_Icon.PNG"
+                alt="dumbbell Icon"
+                width="40"
+                height="40"
+                 class="featuresImg__icon"
+              />
+            </div>
+            <h5 class="features__header">Personalized fitness plans</h5>
+            <p class="features__text">
+              Get training routines built around your goals and lifestyle.
+              Whether at home or in the gym, CoreFit gives you structured plans
+              that keep you motivated and on track.
+            </p>
+          </div>
+        </div>
+        <img
+          src="img/fitness-lazy.JPG"
+          data-src="img/fitness.jpg"
+          alt="fitness"
+          class="features__img lazy-img"
+        />
+        <img
+          src="img/nutrition-lazy.JPG"
+          data-src="img/nutrition.jpg"
+          alt="healthy food"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature healthy">
+          <div class="features__icon">
+            <img
+              src="img/healthyfood_Icon.PNG"
+              alt="Healthy Icon"
+              width="40"
+              height="40"
+              class="featuresImg__icon"
+
+            />
+          </div>
+          <h5 class="features__header">Nutrition guidance</h5>
+          <p class="features__text">
+            Fuel your body with simple, balanced meal ideas tailored to your
+            fitness journey. CoreFit helps you eat smarter to recover faster,
+            perform better, and feel your best.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Workouts made simple</h2>
+        <h3 class="section__header">
+          Your fitness journey in 3 easy steps
+          <img
+            src="img/three_Icon.PNG"
+            alt="Three Fingers Icon"
+            width="40"
+            height="40"
+            class="threefingers_Icon"
+          />
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Choose Your Plan
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Follow Guided Workouts
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Track Your Progress
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <img
+              src="img/task_Icon.PNG"
+              alt="Task Icon"
+              width="40"
+              height="40"
+              class="operationsImg__icon"
+            />
+          </div>
+          <h5 class="operations__header">Pick a program that works for you</h5>
+          <p>
+            Choose from a wide range of fitness programs designed to match your
+            goals, whether you want to build strength, improve endurance, lose
+            weight, or simply stay active. Each plan is structured by
+            professional trainers and comes with clear weekly schedules, so
+            you'll never feel lost or overwhelmed when starting your fitness
+            journey.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <img
+              src="img/guidances_Icon.PNG"
+              alt="Guidances Icon"
+              width="40"
+              height="40"
+              class="operationsImg__icon"
+            />
+          </div>
+          <h5 class="operations__header">Train with guidance.</h5>
+          <p>
+            Every workout is guided step-by-step with detailed instructions,
+            video demonstrations, and smart pacing to keep you moving safely and
+            effectively. Whether you're training at home with no equipment or at
+            the gym with machines, CoreFit ensures your Workouts are simple to
+            follow and adaptable to your lifestyle
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <img
+              src="img/progress_Icon.PNG"
+              alt="progress Icon"
+              width="40"
+              height="40"
+              class="operationsImg__icon"
+            />
+          </div>
+          <h5 class="operations__header">See your results.</h5>
+          <p>
+            Track your progress with powerful analytics that go beyond counting
+            reps. Monitor calories burned, training consistency, and personal
+            records, all displayed in easy-to-understand charts. With CoreFit,
+            you'll see real results over time, giving you the motivation to stay
+            consistent and push toward your next milestone.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">What Our Members Say</h2>
+        <h3 class="section__header">
+          Real stories from people who transformed their fitness with CoreFit.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Lost 15 lbs in 3 months!</h5>
+
+            <blockquote class="testimonial__text">
+              I've tried so many apps before, but CoreFit was the first one that
+              actually kept me motivated. The guided workouts and nutritional
+              tips made everything simple. I actually enjoy working out now! I
+              started small, just 20 minutes a day, and the progress tracking
+              showed me how much I was improving. Three months later, I feel
+              stronger, lighter, and more confident than ever.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Mason Reed</h6>
+              <p class="testimonial__location">New York, USA</p>
+            </address>
+            <p>
+              <img
+                src="img/fivestars_Icon.PNG"
+                alt="Five Stars Icon"
+                width="50"
+                height="50"
+                class="fivestars_Icon"
+              />
+            </p>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Gained Strength & Confidence</h5>
+            <blockquote class="testimonial__text">
+              The personalized plans were exactly what I needed. CoreFit
+              adjusted to my busy schedule and gave me routines that didn't feel
+              overwhelming. Having clear instructions and a flexible plan helped
+              me stay consistent even on tough weeks. Today, I can lift more,
+              run longer, and finally feel in control of my health. It's the
+              first program that truly feels like it was made for me.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Omuwa Oyati</h6>
+              <p class="testimonial__location">Lagos, Nigeria</p>
+            </address>
+            <p>
+              <img
+                src="img/fivestars_Icon.PNG"
+                alt="Five Stars Icon"
+                width="50"
+                height="50"
+                class="fivestars_Icon"
+              />
+            </p>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Busy Mom, Big Results!</h5>
+            <blockquote class="testimonial__text">
+              As a mom of two, I don't have hours for the gym. CoreFit's home
+              workouts are short but effective, and the progress tracking keeps
+              me accountable. What I love most is how it balances workouts with
+              simple nutrition guidance, so i never feel like I'm guessing. In
+              just a few months, I have more energy, my clothes fit better, and
+              I can keep up with my kids without getting tired.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Madeleine Caron</h6>
+              <p class="testimonial__location">Paris, France</p>
+            </address>
+            <p>
+              <img
+                src="img/fivestars_Icon.PNG"
+                alt="Five Stars Icon"
+                width="50"
+                height="50"
+                class="fivestars_Icon"
+              />
+            </p>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Your goals won't wait, why should you? <br />
+          Start today with CoreFit
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Signup for free today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="https://twitter.com/Daa_Vinciii"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+      <img src="img/logofooter.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright <span class="year">2030</span> by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://WWW.linkedin.com/in/daniel-oyati-b0656a37b?"
+          >Daniel Oyati</a
+        >
+        CoreFit, Inc. All Rights Reserved.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Start your journey today<br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
