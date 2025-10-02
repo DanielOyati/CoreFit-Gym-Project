@@ -190,35 +190,35 @@ allSections.forEach(function (section) {
 });
 
 // Lazy loading images
-const imgTargets = document.querySelectorAll('img[data-src]');
-console.log(imgTargets);
+// const imgTargets = document.querySelectorAll('img[data-src]');
+// console.log(imgTargets);
 
-const loading = function (entries, observer) {
-  const [entry] = entries;
-  console.log(entry);
+// const loading = function (entries, observer) {
+//   const [entry] = entries;
+//   console.log(entry);
 
-  if (!entry.isIntersecting) {
-    return;
-  }
-  // replace src with data-src
-  entry.target.src = entry.target.dataset.src;
+//   if (!entry.isIntersecting) {
+//     return;
+//   }
+//   // replace src with data-src
+//   entry.target.src = entry.target.dataset.src;
 
-  entry.target.addEventListener('load', function () {
-    entry.target.classList.remove('lazy-img');
-  });
+//   entry.target.addEventListener('load', function () {
+//     entry.target.classList.remove('lazy-img');
+//   });
 
-  observer.unobserve(entry.target);
-};
+//   observer.unobserve(entry.target);
+// };
 
-const imgObserver = new IntersectionObserver(loading, {
-  root: null,
-  threshold: 0,
-  rootMargin: '-200px',
-});
+// const imgObserver = new IntersectionObserver(loading, {
+//   root: null,
+//   threshold: 0,
+//   rootMargin: '-200px',
+// });
 
-imgTargets.forEach(function (img) {
-  return imgObserver.observe(img);
-});
+// imgTargets.forEach(function (img) {
+//   return imgObserver.observe(img);
+// });
 
 // slider
 

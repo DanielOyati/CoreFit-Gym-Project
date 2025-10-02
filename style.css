@@ -128,10 +128,6 @@ img {
   transition: filter 0.01s;
 }
 
-/* .lazy-img {
-  filter: blur(20px);
-} */
-
 /* NAVIGATION */
 .nav {
   display: flex;
