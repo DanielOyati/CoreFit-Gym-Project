@@ -67,7 +67,7 @@ body {
 }
 
 .section__description {
-  font-size: 1.8rem;
+  font-size: 3.2rem;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--color-primary);
