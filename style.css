@@ -629,6 +629,7 @@ h4 {
 .section--sign-up .btn {
   font-size: 1.9rem;
   padding: 2rem 5rem;
+  text-decoration: none;
 }
 
 /* FOOTER */
