@@ -22,7 +22,7 @@
 html {
   font-size: 62.5%;
   /* height: 100%; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -36,6 +36,22 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background-color: #e0f2f1;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
+  height: 9.6rem;
+  background-color: #e0f2f1;
+  /* z-index: 999; */
 }
 
 /* GENERAL ELEMENTS */

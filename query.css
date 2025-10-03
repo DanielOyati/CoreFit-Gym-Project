@@ -390,6 +390,14 @@
     height: 15rem;
   }
 
+  .header {
+    padding: 0 0rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .header__img {
     width: 40dvh;
     grid-column: 2 / 3;
@@ -405,6 +413,13 @@
     width: 30px;
     height: 30px;
   }
+
+  .operations__header {
+    font-size: 3.25rem;
+    font-weight: 500;
+    align-self: center;
+  }
+
   .featuresImg__icon {
     width: 35px;
     height: 35px;
