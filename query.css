@@ -218,6 +218,14 @@
     justify-self: center;
   }
 
+  .features__header {
+    font-size: 3.2rem;
+  }
+
+  .features__text {
+    font-size: 2.8rem;
+  }
+
   .featuresHeader__container {
     grid-row: 4 / span 5;
   }
@@ -228,6 +236,14 @@
 
   .healthy {
     margin-bottom: -8rem;
+  }
+
+  .testimonial__text {
+    font-size: 2rem;
+  }
+
+  .operations__text {
+    font-size: 2.6rem;
   }
 
   /* Turn hero section to one grid */
@@ -603,12 +619,23 @@
 }
 @media (max-width: 375px) {
   html {
-    font-size: 26%;
+    font-size: 30%;
     box-sizing: border-box;
   }
 
+  .menu-icon,
+  .close-icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    position: relative;
+    z-index: 15;
+  }
+
   .hero__upperhalf {
-    height: 25dvh;
+    height: 27dvh;
   }
 
   .features__img {
